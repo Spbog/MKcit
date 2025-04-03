@@ -1,3 +1,3 @@
-# MKcit
+# :trollface: MKcit
 Простой ресурспак с модельками комьюнити для mk\
 (c) spbog, and co
