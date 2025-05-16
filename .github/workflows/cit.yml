@@ -16,7 +16,7 @@ jobs:
       - name: Prepare CIT zip
         run: |
           zip -r mkcit.zip assets/ pack.mcmeta pack.png
-          rsync -arv --exclude='.git/' --exclude='.github/' --exclude='.gitignore' ./release
+          rsync -arv --exclude='.git/' --exclude='.github/' --exclude='.gitignore' --exclude='old_assets/' . ./release
 
       - name: Bump version and push tag
         id: tag_version
