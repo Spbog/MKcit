@@ -1,0 +1,23 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": [
+            "мандарин",
+            "Мандарин"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/mandarin/mandarin"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/apple"
+      }
+    }
+  }

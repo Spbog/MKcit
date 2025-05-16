@@ -1,0 +1,25 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": [
+            "spbog",
+            "Spbog",
+            "Спбог",
+            "спбог"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/spbog/spbog"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/pufferfish"
+      }
+    }
+  }

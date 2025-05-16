@@ -1,0 +1,22 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": [
+            "Quest 3S"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/quest3s/quest3s"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:block/carved_pumpkin"
+      }
+    }
+  }

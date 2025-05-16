@@ -1,0 +1,25 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": [
+            "Лирика",
+            "лирика",
+            "Lyrica",
+            "lyrica"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/lyrica/lyrica"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/poisonous_potato"
+      }
+    }
+  }

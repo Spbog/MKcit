@@ -1,0 +1,70 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "minecraft:item/lyrica/lyrica",
+		"particle": "minecraft:item/lyrica/lyrica"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 4],
+			"to": [16, 8, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 4], "texture": "#0"},
+				"east": {"uv": [8, 4, 12, 8], "texture": "#0"},
+				"south": {"uv": [8, 4, 0, 8], "texture": "#0"},
+				"west": {"uv": [8, 8, 12, 12], "texture": "#0"},
+				"up": {"uv": [8, 12, 0, 8], "texture": "#0"},
+				"down": {"uv": [16, 0, 8, 4], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0.5, 0],
+			"scale": [0.36133, 0.36133, 0.36133]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [91, 0, 0],
+			"translation": [0, 0, 2.5],
+			"scale": [0.36133, 0.36133, 0.36133]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 156, 0],
+			"translation": [-0.75, 5, -0.75],
+			"scale": [0.48633, 0.48633, 0.48633]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 156, 0],
+			"translation": [-0.75, 5.25, -0.75],
+			"scale": [0.48633, 0.48633, 0.48633]
+		},
+		"ground": {
+			"translation": [0, 0.5, 0],
+			"scale": [0.44922, 0.44922, 0.44922]
+		},
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 4.75, 0],
+			"scale": [0.90625, 0.96484, 0.90625]
+		},
+		"head": {
+			"translation": [0, -1.25, -6.5],
+			"scale": [0.5332, 0.5332, 0.5332]
+		},
+		"fixed": {
+			"translation": [0, 2.25, -1],
+			"scale": [0.67188, 0.67188, 0.67188]
+		}
+	},
+	"groups": [
+		0,
+		{
+			"name": "lyrica",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": []
+		}
+	]
+}

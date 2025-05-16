@@ -1,0 +1,33 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": [
+            "чашка кофе",
+            "Чашка кофе"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/coffee/coffee"
+          }
+        },
+        {
+          "when": [
+            "кружка",
+            "Кружка"
+          ],
+          "model": {
+           "type": "minecraft:model",
+           "model": "minecraft:item/coffee/mug"
+           }
+         }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/honey_bottle"
+      }
+    }
+  }

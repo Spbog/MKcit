@@ -1,0 +1,37 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": [
+            "Bigtsapp",
+            "bigtsapp",
+            "Whatsapp car",
+            "whatsapp car"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/realwacar/wacarr"
+          }
+        },
+        {
+          "when": [
+            "Whatsapp",
+            "whatsapp",
+            "wacar",
+            "Wacar"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wacar/wacar"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:block/emerald_block"
+      }
+    }
+  }

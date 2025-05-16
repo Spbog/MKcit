@@ -1,0 +1,27 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": [
+            "влс",
+            "Влс",
+            "Vlc",
+            "vlc",
+            "Конус",
+            "конус"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/vlc/vlc"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/brick"
+      }
+    }
+  }

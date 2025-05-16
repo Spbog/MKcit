@@ -1,0 +1,25 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": [
+            "пиксель 6 про",
+            "Пиксель 6 про",
+            "pixel 6 pro",
+            "Pixel 6 pro"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/pixel6pro/pixel6pro"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/flint_and_steel"
+      }
+    }
+  }
