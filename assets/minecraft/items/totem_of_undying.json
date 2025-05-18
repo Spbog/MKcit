@@ -1,37 +1,256 @@
 {
-    "model": {
-      "type": "minecraft:select",
-      "property": "minecraft:component",
-      "component": "minecraft:custom_name",
-      "cases": [
-        {
-          "when": [
-            "пиксель 7 про",
-            "Пиксель 7 про",
-            "Pixel 7 pro",
-            "pixel 7 pro"
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": [
+          "пиксель 7 про",
+          "Пиксель 7 про",
+          "Pixel 7 pro",
+          "pixel 7 pro"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pixel7pro/pixel7pro"
+        }
+      },
+      {
+        "when": [
+          "эсс9",
+          "s9",
+          "starlte",
+          "Starlte"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/s9/s9"
+        }
+      },
+      {
+        "when": [
+          "Poco F3",
+          "poco f3",
+          "поко",
+          "Поко"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pocof3/pocof3"
+        }
+      },
+      {
+        "when": "example",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/playerplush/.example/playeronneck"
+              }
+            }
           ],
-          "model": {
+          "fallback": {
             "type": "minecraft:model",
-            "model": "minecraft:item/pixel7pro/pixel7pro"
-          }
-        },
-        {
-          "when": [
-            "эсс9",
-            "s9",
-            "starlte",
-            "Starlte"
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/s9/s9"
+            "model": "minecraft:item/playerplush/example/playerplush"
           }
         }
-      ],
-      "fallback": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/totem_of_undying"
+      },
+      {
+        "when": "avitoras",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/playerplush/avitoras/playeronneck"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/playerplush/avitoras/playerplush"
+          }
+        }
+      },
+      {
+        "when": "beecat",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/playerplush/beecat/playeronneck"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/playerplush/beecat/playerplush"
+          }
+        }
+      },
+      {
+        "when": "kadyrov",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/playerplush/kadyrov/playeronneck"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/playerplush/kadyrov/playerplush"
+          }
+        }
+      },
+      {
+        "when": "mihoillo",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/playerplush/mihoillo/playeronneck"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/playerplush/mihoillo/playerplush"
+          }
+        }
+      },
+      {
+        "when": "nevermore3221",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/playerplush/nevermore3221/playeronneck"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/playerplush/nevermore3221/playerplush"
+          }
+        }
+      },
+      {
+        "when": "poziqo",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/playerplush/poziqo/playeronneck"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/playerplush/poziqo/playerplush"
+          }
+        }
+      },
+      {
+        "when": "spbog",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/playerplush/spbog/playeronneck"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/playerplush/spbog/playerplush"
+          }
+        }
+      },
+      {
+        "when": "GentUwU",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/playerplush/gentuwu/playeronneck"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/playerplush/gentuwu/playerplush"
+          }
+        }
       }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/totem_of_undying"
     }
   }
+}

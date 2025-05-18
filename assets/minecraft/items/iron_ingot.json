@@ -1,69 +1,74 @@
 {
-    "model": {
-      "type": "minecraft:select",
-      "property": "minecraft:component",
-      "component": "minecraft:custom_name",
-      "cases": [
-        {
-          "when": [
-            "Красное баскетбольное кольцо",
-            "красное баскетбольное кольцо"
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": [
+          "Красное баскетбольное кольцо",
+          "красное баскетбольное кольцо"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/basketballhoop/basketballhoop_red"
+        }
+      },
+      {
+        "when": [
+          "Синее баскетбольное кольцо",
+          "синее баскетбольное кольцо"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/basketballhoop/basketballhoop_blue"
+        }
+      },
+      {
+        "when": [
+          "Server",
+          "server",
+          "сервер",
+          "Сервер"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/server/server"
+        }
+      },
+      {
+        "when": [
+          "ThinkPad",
+          "Thinkpad",
+          "thinkpad",
+          "Тинькпад",
+          "тинькпад"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/thinkpad/closed_thinkpad"
+              }
+            }
           ],
-          "model": {
+          "fallback": {
             "type": "minecraft:model",
-            "model": "minecraft:item/basketballhoop/basketballhoop_red"
+            "model": "minecraft:item/thinkpad/thinkpad"
           }
-        },
-        {
-          "when": [
-            "Синее баскетбольное кольцо",
-            "синее баскетбольное кольцо"
-          ],
-          "model": {
-           "type": "minecraft:model",
-           "model": "minecraft:item/basketballhoop/basketballhoop_blue"
-           }
-         },
-        {
-          "when": [
-            "Server",
-            "server",
-            "сервер",
-            "Сервер"
-          ],
-          "model": {
-           "type": "minecraft:model",
-           "model": "minecraft:item/server/server"
-           }
-         },
-         {
-          "when": [
-            "Thinkpad",
-            "thinkpad",
-            "тинькпад",
-            "Тинькпад"
-          ],
-          "model": {
-           "type": "minecraft:model",
-           "model": "minecraft:item/thinkpad/thinkpad" 
-           }
-         },
-         {
-          "when": [
-            "Closed thinkpad",
-            "closed thinkpad",
-            "закрытый тинькпад",
-            "Закрытый тинькпад"
-          ],
-          "model": {
-           "type": "minecraft:model",
-           "model": "minecraft:item/closed_thinkpad/closed_thinkpad" 
-           }
-         }
-      ],
-      "fallback": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/iron_ingot"
+        }
       }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_ingot"
     }
   }
+}

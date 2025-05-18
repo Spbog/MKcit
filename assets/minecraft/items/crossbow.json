@@ -7,8 +7,59 @@
       {
         "when": "Gauss",
         "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/gauss/gauss"
+          "type": "minecraft:select",
+          "property": "minecraft:charge_type",
+          "cases": [
+            {
+              "when": "arrow",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/gauss/gauss_charged"
+              }
+            },
+            {
+              "when": "rocket",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/gauss/gauss_charged"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/gauss/gauss_charging_1"
+                  }
+                },
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/gauss/gauss_charging_2"
+                  }
+                },
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/gauss/gauss_charging_3"
+                  }
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gauss/gauss"
+            }
+          }
         }
       }
     ],

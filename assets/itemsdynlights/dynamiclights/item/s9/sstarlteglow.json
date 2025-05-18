@@ -1,0 +1,17 @@
+{
+	"match": {
+		"items": [
+			"minecraft:totem_of_undying",
+			"minecraft:netherite_shovel",
+			"minecraft:diamond_shovel",
+			"minecraft:iron_shovel",
+			"minecraft:golden_shovel",
+			"minecraft:stone_shovel",
+			"minecraft:wooden_shovel"
+		],
+		"components": {
+			"minecraft:custom_name": "Starlte"
+    }
+  },
+  "luminance": 10
+}

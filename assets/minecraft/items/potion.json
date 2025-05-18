@@ -1,0 +1,51 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": [
+          "Чашка чая",
+          "чашка чая"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/tea/cup_tea"
+        }
+      },
+      {
+        "when": [
+          "Чашка малинового чая",
+          "чашка малинового чая"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/tea/cup_malintea"
+        }
+      },
+      {
+        "when": [
+          "Чашка зелёного чая",
+          "Чашка зеленого чая",
+          "чашка зелёного чая",
+          "чашка зеленого чая"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/tea/cup_greentea"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/potion",
+      "tints": [
+        {
+          "type": "minecraft:potion",
+          "default": -13083194
+        }
+      ]
+    }
+  }
+}
