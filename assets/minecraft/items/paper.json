@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "patch X",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/patches/patch_x"
+        }
+      },
+      {
+        "when": "patch O",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/patches/patch_o"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/paper"
+    }
+  }
+}

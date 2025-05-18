@@ -1,49 +1,322 @@
 {
-    "model": {
-      "type": "minecraft:select",
-      "property": "minecraft:component",
-      "component": "minecraft:custom_name",
-      "cases": [
-        {
-          "when": [
-            "mask z",
-            "Mask z",
-            "маска z",
-            "Маска z"
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/masks/maskz"
-          }
-        },
-        {
-          "when": [
-            "mask v",
-            "Mask v",
-            "маска v",
-            "Маска v"
-          ],
-          "model": {
-           "type": "minecraft:model",
-           "model": "minecraft:item/masks/maskv"
-           }
-         },
-	 {
-          "when": [
-            "mask o",
-            "Mask o",
-            "маска o",
-            "Маска o"
-          ],
-          "model": {
-           "type": "minecraft:model",
-           "model": "minecraft:item/masks/masko"
-           }
-         }
-      ],
-      "fallback": {
-        "type": "minecraft:model",
-        "model": "minecraft:block/black_wool"
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": [
+          "mask z",
+          "Mask z",
+          "маска z",
+          "Маска z"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/masks/maskz"
+        }
+      },
+      {
+        "when": [
+          "mask v",
+          "Mask v",
+          "маска v",
+          "Маска v"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/masks/maskv"
+        }
+      },
+      {
+        "when": [
+          "mask o",
+          "Mask o",
+          "маска o",
+          "Маска o"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/masks/masko"
+        }
+      },
+      {
+        "when": "example_plakat",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/.example/example"
+        }
+      },
+      {
+        "when": "ayu",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/ayu/ayu"
+        }
+      },
+      {
+        "when": "bdjolo",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/bdjolo/bdjolo"
+        }
+      },
+      {
+        "when": "bestpc",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/bestpc/bestpc"
+        }
+      },
+      {
+        "when": "davis_sigma",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/davis_sigma/davis_sigma"
+        }
+      },
+      {
+        "when": "furiponushka",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/furiponushka/furiponushka"
+        }
+      },
+      {
+        "when": "gentoo",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/gentoo/gentoo"
+        }
+      },
+      {
+        "when": "huanan",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/huanan/huanan"
+        }
+      },
+      {
+        "when": "huindows",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/huindows/huindows"
+        }
+      },
+      {
+        "when": "idinahui",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/idinahui/idinahui"
+        }
+      },
+      {
+        "when": "lexima",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/lexima/lexima"
+        }
+      },
+      {
+        "when": "masturbist",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/masturbist/masturbist"
+        }
+      },
+      {
+        "when": "misaide",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/misaide/misaide"
+        }
+      },
+      {
+        "when": "gentoo_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/gentoo/gentoo_2"
+        }
+      },
+      {
+        "when": "mk",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/mk/mk"
+        }
+      },
+      {
+        "when": "mpgram",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/mpgram/mpgram"
+        }
+      },
+      {
+        "when": "nekogrgr",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/nekogrgr/nekogrgr"
+        }
+      },
+      {
+        "when": "noporn",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/noporn/noporn"
+        }
+      },
+      {
+        "when": "odniplusi",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/odniplusi/odniplusi"
+        }
+      },
+      {
+        "when": "pixel_ad",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/pixel_ad/pixel_ad"
+        }
+      },
+      {
+        "when": "pixelbox",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/pixelbox/pixelbox"
+        }
+      },
+      {
+        "when": "ponh",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/ponh/ponh"
+        }
+      },
+      {
+        "when": "realme6pro",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/realme6pro/realme6pro"
+        }
+      },
+      {
+        "when": "redmi5",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/redmi5/redmi5"
+        }
+      },
+      {
+        "when": "ribko",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/ribko/ribko"
+        }
+      },
+      {
+        "when": "rogatayatvar",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/rogatayatvar/rogatayatvar"
+        }
+      },
+      {
+        "when": "romagram",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/romagram/romagram"
+        }
+      },
+      {
+        "when": "shashlik",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/shashlik/shashlik"
+        }
+      },
+      {
+        "when": "shiptech",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/shiptech/shiptech"
+        }
+      },
+      {
+        "when": "stau",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/stau/stau"
+        }
+      },
+      {
+        "when": "stone",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/stone/stone"
+        }
+      },
+      {
+        "when": "stop_dog",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/stop_dog/stop_dog"
+        }
+      },
+      {
+        "when": "stop_pt",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/stop_pt/stop_pt"
+        }
+      },
+      {
+        "when": "tableman",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/tableman/tableman"
+        }
+      },
+      {
+        "when": "templeos",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/templeos/templeos"
+        }
+      },
+      {
+        "when": "example plakat",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/.example/example"
+        }
+      },
+      {
+        "when": "thinkpad_png",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/thinkpad_png/thinkpad_png"
+        }
+      },
+      {
+        "when": "trah",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/trah/trah"
+        }
+      },
+      {
+        "when": "vlg",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/plakatiki/vlg/vlg"
+        }
       }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/black_wool"
     }
   }
+}

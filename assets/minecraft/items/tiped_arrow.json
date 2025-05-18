@@ -1,0 +1,24 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "models": [],
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": [
+          "gauss ammo",
+          "гаусс патроны"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/gauss/gauss_ammo"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/tiped_arrow"
+    }
+  }
+}
