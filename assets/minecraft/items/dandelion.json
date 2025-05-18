@@ -1,0 +1,25 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": [
+          "Lavender",
+          "lavender",
+          "Лаванда",
+          "лаванда"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/lavender/lavender"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/dandelion"
+    }
+  }
+}

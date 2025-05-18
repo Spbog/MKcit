@@ -1,6 +1,10 @@
 {
   "pack": {
-    "pack_format": 34,
-    "description": "just4fun"
+    "description": "MK Custom Model's",
+    "pack_format": 55,
+    "supported_formats": {
+      "min_inclusive": 55,
+      "max_inclusive": 55
+    }
   }
 }
