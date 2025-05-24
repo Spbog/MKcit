@@ -75,6 +75,32 @@
           "type": "minecraft:model",
           "model": "minecraft:item/pocof3/pocof3"
         }
+      },
+      {
+        "when": [
+          "Mi9T",
+          "Mi9t",
+          "mi9t",
+          "Davinci",
+          "davinci",
+          "Mi9TPro",
+          "Mi9tpro",
+          "mi9tpro",
+          "Mi9TP",
+          "mi9tp",
+          "Raphael",
+          "Raph",
+          "raphael",
+          "raph",
+          "Otkriwashke",
+          "otkriwashke",
+          "Открывашкэ",
+          "открывашкэ"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/mi9t/mi9t"
+        }
       }
     ],
     "fallback": {
